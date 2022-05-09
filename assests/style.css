@@ -1,0 +1,48 @@
+:root {
+    background-color: grey;
+    content: purple;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    font size: 3em;
+    margin: 5%;
+}
+
+main {
+    display: flex;
+}
+
+#flexbox-row h1 {
+    position: absolute;
+    top: -0.5em;
+    border: solid white 2p;
+}
+
+
+#flexbox-row {
+    padding:1%;
+    display:flex;
+    flex direction: column;
+    margin: 5%; 
+    border: dotted 2px white;
+    position: relative;
+}
+
+#flexbox-row h2 {
+    font size: 2em;
+    width: 90%;
+    background-color:
+}
